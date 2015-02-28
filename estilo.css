@@ -1,0 +1,42 @@
+body{
+
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:30px;
+  margin-bottom:20px;
+
+  background-image:url(imagenes/Fondo3.png);
+  background-attachment:fixed;
+  background-repeat:repeat;
+
+  }
+
+.menu dl{
+  float:left;
+  margin-top:40;
+
+  width:185;
+  height:auto;
+  padding:5px;
+  overflow:auto;
+  line-height:20px;
+
+  border-color:black;
+  border-style:solid;
+  background:#424242;
+
+
+  font-family:Airal;
+  font-size:14;
+  font-weight:bold;
+
+}
+.contenido_total{
+  margin-left:220;
+}
+.contenido{
+  th, td { vertical-align: top; text-align: right; font-size:large; }
+}
+.enlaces_github{
+  display:inline-block;
+}
