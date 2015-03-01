@@ -34,3 +34,13 @@ body{
 .contenido_total{
   margin-left:220;
 }
+.enlaces{
+  float:right;
+  display:inline-block;
+}
+.enlaces_github{
+  display:inline-block;
+}
+.enlace_jquery{
+  display:inline-block;
+}
