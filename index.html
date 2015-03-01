@@ -3,8 +3,8 @@
     <title>Analizador CSV</title>
     <link rel="stylesheet" href="estilo.css">
     
-    <script type="text/javascript" src="../../underscore/underscore.js"></script>
-    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="csv.js"></script>
     
     <style type="text/css">
@@ -29,16 +29,12 @@
       <div class="contenido">
         <table>
           <tr>
-            <th>Cadena CSV:</th> <!-- autofocus attribute is HTML5 -->
+            <th>Cadena CSV:</th>
             <td><textarea autofocus cols = "40" rows = "5" id="original"></textarea></td> 
           </tr>
         </table>
         <button type="button">Tabla:</button><br>
         <span class="output" id="finaltable"></span>
-      </div>
-      <div class="jquery_script">
-        <script src="jquery.js"></script>
-        <script></script> <!-- Que hay que poner aqui -->
       </div>
     <div class="enlaces">
       <div class="enlace_jquery">
@@ -51,6 +47,20 @@
           <a href="https://github.com/KevinRM/pl_practica_2"><button type="button" class="btn btn-primary">Ver en <strong>GitHub</strong></button></a>
         </b></p>
       </div>
+    </div>
+    <div class="descripcion">
+      <fieldset>
+        <p>
+          <legend>
+            <u>
+              <i>
+                <b>AYUDA:</b>
+              </i>
+            </u>
+          </legend>
+          Escriba una cadena CSV, luego haga Click en el bontón de tabla. El programa le dará una tabla como salida con los datos introducidos.
+        </p>
+      </fieldset>
     </div>
   </div>
   </body>

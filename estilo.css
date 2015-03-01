@@ -44,3 +44,15 @@ body{
 .enlace_jquery{
   display:inline-block;
 }
+.descripcion fieldset{
+  border-color:black; 
+  margin-top:40px;
+  width:300px;
+}
+.descripcion p{
+  text-align:justify;
+  color:white;
+}
+#finaltable:hover td { background-color: blue; }
+#result { border-color: red; }
+tr.error { background-color: red; }
