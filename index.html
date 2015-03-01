@@ -1,9 +1,12 @@
 <html>
   <head>
-    <title>Comma Separated Values</title>
-
+    <title>Analizador CSV</title>
     <link rel="stylesheet" href="estilo.css">
-
+    
+    <script type="text/javascript" src="../../underscore/underscore.js"></script>
+    <script type="text/javascript" src="../../jquery/starterkit/jquery.js"></script>
+    <script type="text/javascript" src="csv.js"></script>
+    
     <style type="text/css">
     a{text-decoration:none;}
     a:link{color:white;}
@@ -20,11 +23,18 @@
     </div>
     <div class="contenido_total">
       <div class="titulo_practica">
-        <h1 align=center><font color="white">Comma Separated Values. CSV</font></h1>
+        <h1 align=center><font color="white">Comma Separated Values (CSV) Analyzer</font></h1>
         <hr>
       </div>
       <div class="contenido">
-        
+        <table>
+          <tr>
+            <th>Cadena CSV:</th> <!-- autofocus attribute is HTML5 -->
+            <td><textarea autofocus cols = "40" rows = "5" id="original"></textarea></td> 
+          </tr>
+        </table>
+        <button type="button">Tabla:</button><br>
+        <span class="output" id="finaltable"></span>
       </div>
     <div class="enlaces_github">
         <p align=right><b>

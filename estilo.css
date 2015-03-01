@@ -34,9 +34,3 @@ body{
 .contenido_total{
   margin-left:220;
 }
-.contenido{
-  th, td { vertical-align: top; text-align: right; font-size:large; }
-}
-.enlaces_github{
-  display:inline-block;
-}
