@@ -53,6 +53,9 @@ body{
   text-align:justify;
   color:white;
 }
-#finaltable:hover td { background-color: blue; }
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
 #result { border-color: red; }
 tr.error { background-color: red; }
