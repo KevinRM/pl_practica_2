@@ -54,8 +54,23 @@ body{
   color:white;
 }
 table.center {
-	margin-left: auto;
-	margin-right: auto;
+	font-weight: bold;
+	color:white;
+	text-align: center;
+
+	margin-left: 90px;
+	
+	border: ridge;
+	border-color: #0B610B;
+	
+	background-color: #A4A4A4;	
 }
-#result { border-color: red; }
-tr.error { background-color: red; }
+.center td{
+	background-color: #424242;
+}
+.error td{ 
+	background-color: #B40404; 
+}
+.texto_resultado p{
+	float:left;
+}
