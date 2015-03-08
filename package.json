@@ -1,0 +1,21 @@
+{
+  "name": "pl_practica_2",
+  "version": "0.0.1",
+  "description": "ULL ESIT Grado de Informática. 3º. PL. Lab \"Comma Separated Values. CSV\"",
+  "main": "csv.js",
+  "scripts": {
+    "test": "firefox tests/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinRM/pl_practica_2.git"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "Kevin Miguel Rivero Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinRM/pl_practica_2/issues"
+  }
+}
