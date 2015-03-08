@@ -6,6 +6,11 @@
   "scripts": {
     "test": "firefox tests/index.html"
   },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "~2.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/KevinRM/pl_practica_2.git"
