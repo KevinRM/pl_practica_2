@@ -36,9 +36,11 @@ body{
 }
 .enlaces{
   float:right;
-  display:inline-block;
 }
-.enlaces_github{
+.enlace_tests{
+  display: inline-block;
+}
+.enlace_github{
   display:inline-block;
 }
 .enlace_jquery{
@@ -46,10 +48,12 @@ body{
 }
 .descripcion fieldset{
   border-color:black; 
-  margin-top:40px;
+  margin-top:50px;
   width:300px;
 }
 .descripcion p{
+  display: inline-block;
+  float: left;
   text-align:justify;
   color:white;
 }
