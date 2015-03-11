@@ -51,7 +51,7 @@ function calculate() {
       r.push(tr+_.template(row, {items : result})+"</tr>");
     }
     else {
-      alert('ERROR! El texto introducido no tiene formato CSV');
+      alert('ERROR! row '+temp+' does not look as legal CSV');
       error = true;
     }
   }
