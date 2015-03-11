@@ -20,10 +20,11 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'csv.js',
+      'jquery.js',
       'tests/index.html',
       'tests/*.js',
       'tests/tests.js',
-      'csv.js',
     ],
 
 
