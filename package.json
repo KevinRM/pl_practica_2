@@ -4,7 +4,7 @@
   "description": "ULL ESIT Grado de Informática. 3º. PL. Lab \"Comma Separated Values. CSV\"",
   "main": "csv.js",
   "scripts": {
-    "test": "firefox tests/index.html"
+    "test": "./node_modules/karma/bin/karma start --single-run"
   },
   "dependencies": {},
   "devDependencies": {
