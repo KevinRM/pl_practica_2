@@ -40,6 +40,9 @@ body{
 .enlace_tests{
   display: inline-block;
 }
+.enlace_travis{
+  display: inline-block;
+}
 .enlace_github{
   display:inline-block;
 }
