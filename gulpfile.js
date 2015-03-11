@@ -6,6 +6,7 @@ var del     = require('del');
 var minifyHTML = require('gulp-minify-html');
 var minifyCSS  = require('gulp-minify-css');
 var karma   = require('gulp-karma');
+var shell = require('gulp-shell');
 
 gulp.task('minify', function () {
   gulp.src('csv.js')
@@ -44,4 +45,16 @@ gulp.task('default', function() {
       configFile: 'karma.conf.js',
       action: 'watch'
     }));
+});
+
+gulp.task('default', ['server']);
+
+// npm install supervisor -g
+gulp.task('server', function () {
+  return gulp.src('').pipe(shell([ 'node-supervisor app.js' ]));
+});
+
+gulp.task('open', function() {
+  return gulp.src('').
+           pipe(shell("open https://github.com/crguezl/how-jquery-works-tutorial/tree/getallparams"));
 });
