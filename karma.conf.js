@@ -32,7 +32,7 @@ module.exports = function(config) {
     // list of files to exclude
     exclude: [
       'gulpfile.js',
-      'tests/testBlanket.js'
+      'tests/test.js'
     ],
 
 
